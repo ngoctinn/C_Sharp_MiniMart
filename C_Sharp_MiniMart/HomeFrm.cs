@@ -45,6 +45,9 @@ namespace C_Sharp_MiniMart
             openChildFrom(new CustomerForm());
         }
 
-        
+        private void panelChildForm_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
