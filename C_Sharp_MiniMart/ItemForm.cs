@@ -17,5 +17,20 @@ namespace C_Sharp_MiniMart
             InitializeComponent();
         }
 
+        private void panel2_Load(object sender, EventArgs e)
+        {
+            guna2DataGridView1.Rows.Add(7);
+            guna2DataGridView1.Rows[0].Cells[0].Value = "abc";
+            guna2DataGridView1.Rows[0].Cells[1].Value = "abc";
+            guna2DataGridView1.Rows[0].Cells[2].Value = "abc";
+            guna2DataGridView1.Rows[0].Cells[3].Value = "abc";
+            guna2DataGridView1.Rows[0].Cells[4].Value = "abc";
+            guna2DataGridView1.Rows[0].Cells[5].Value = "abc";
+            guna2DataGridView1.Rows[0].Cells[6].Value = "abc";
+
+          
+
+
+        }
     }
 }

@@ -224,6 +224,7 @@
             this.guna2Panel2_top.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel2_top.Controls.Add(this.guna2ControlBox1);
             this.guna2Panel2_top.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Panel2_top.FillColor = System.Drawing.Color.Transparent;
             this.guna2Panel2_top.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel2_top.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel2_top.Name = "guna2Panel2_top";
