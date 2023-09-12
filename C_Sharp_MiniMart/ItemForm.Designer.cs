@@ -111,9 +111,7 @@
             this.guna2ComboBox1.Location = new System.Drawing.Point(312, 17);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.Size = new System.Drawing.Size(142, 36);
-            this.guna2ComboBox1.TabIndex = 7;
-            this.guna2ComboBox1.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
-            // 
+            this.guna2ComboBox1.TabIndex = 7;            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -122,9 +120,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(74, 15);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Sắp xếp theo";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
+            this.label2.Text = "Sắp xếp theo";            // 
             // label1
             // 
             this.label1.AutoSize = true;
