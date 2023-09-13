@@ -32,5 +32,11 @@ namespace C_Sharp_MiniMart
 
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            var childView = new AddEditItemFrm();
+            childView.Show();
+        }
     }
 }
