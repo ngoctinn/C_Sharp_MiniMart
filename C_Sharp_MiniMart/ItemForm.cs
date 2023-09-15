@@ -38,5 +38,6 @@ namespace C_Sharp_MiniMart
             var childView = new AddEditItemFrm();
             childView.Show();
         }
+
     }
 }

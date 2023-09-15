@@ -23,7 +23,7 @@ namespace C_Sharp_MiniMart
         private Form activeForm = null;
         private void openChildFrom(Form childForm) // hàm mở form con
         {
-            if ( activeForm != null)
+            if (activeForm != null)
                 activeForm.Close();
             activeForm = childForm;
             childForm.TopLevel = false;
@@ -35,19 +35,9 @@ namespace C_Sharp_MiniMart
             childForm.Show();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void guna2Button7_Click(object sender, EventArgs e)
         {
             openChildFrom(new ItemForm());
-        }
-
-        private void guna2Button4_Click(object sender, EventArgs e)
-        {
-            openChildFrom(new CustomerForm());
-        }
-
-        private void panelChildForm_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
