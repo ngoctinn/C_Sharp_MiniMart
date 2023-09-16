@@ -16,7 +16,7 @@ namespace C_Sharp_MiniMart
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new HomeFrm());
+            Application.Run(new LoginFrm());
         }
     }
 }
