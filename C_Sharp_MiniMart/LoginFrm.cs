@@ -18,5 +18,26 @@ namespace C_Sharp_MiniMart
             CenterToScreen();
 
         }
+
+        private void Guna2Button1_Click(object sender, EventArgs e)
+        {
+            HomeFrm f = new HomeFrm();
+            this.Hide();
+            f.ShowDialog();
+
+        }
+
+        private void guna2ImageCheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if(guna2ImageCheckBox1.Checked)
+            {
+                txtPassword.PasswordChar = '\0';
+            }
+            else
+            {
+                txtPassword.PasswordChar = '●';
+            } 
+
+        }
     }
 }

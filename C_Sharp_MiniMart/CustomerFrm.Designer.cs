@@ -1,6 +1,6 @@
 ﻿namespace C_Sharp_MiniMart
 {
-    partial class CustomerForm
+    partial class CustomerFrm
     {
         /// <summary>
         /// Required designer variable.
@@ -32,11 +32,12 @@
             // 
             // CustomerForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Yellow;
-            this.ClientSize = new System.Drawing.Size(1276, 711);
+            this.ClientSize = new System.Drawing.Size(957, 578);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "CustomerForm";
             this.Text = "CustomerForm";
             this.ResumeLayout(false);

@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -35,9 +35,32 @@ namespace C_Sharp_MiniMart
             childForm.Show();
         }
 
-        private void guna2Button7_Click(object sender, EventArgs e)
+        private void btnMatHang_Click(object sender, EventArgs e)
         {
-            openChildFrom(new ItemForm());
+            openChildFrom(new ItemFrm());
+        }
+
+        private void btnKhoHang_Click(object sender, EventArgs e)
+        {
+            openChildFrom(new ItemFrm());
+        }
+
+        internal static void close()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+            LoginFrm f = new LoginFrm();
+            this.Close();
+            f.Show();
+            
+        }
+
+        private void btnBanHang_Click(object sender, EventArgs e)
+        {
+            openChildFrom(new SellFrm());
         }
     }
 }

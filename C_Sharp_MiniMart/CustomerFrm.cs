@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace C_Sharp_MiniMart
 {
-    public partial class CustomerForm : Form
+    public partial class CustomerFrm : Form
     {
-        public CustomerForm()
+        public CustomerFrm()
         {
             InitializeComponent();
         }
