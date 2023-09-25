@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using Newtonsoft.Json;
-
 namespace Models
 {
     public class Cart : IComparable<Cart>

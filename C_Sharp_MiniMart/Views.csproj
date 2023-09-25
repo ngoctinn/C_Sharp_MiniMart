@@ -90,6 +90,12 @@
     <Compile Include="SellFrm.Designer.cs">
       <DependentUpon>SellFrm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Use Control\ProductUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Use Control\ProductUC.Designer.cs">
+      <DependentUpon>ProductUC.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddEditItemFrm.resx">
       <DependentUpon>AddEditItemFrm.cs</DependentUpon>
     </EmbeddedResource>
@@ -116,6 +122,9 @@
     </Compile>
     <EmbeddedResource Include="SellFrm.resx">
       <DependentUpon>SellFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Use Control\ProductUC.resx">
+      <DependentUpon>ProductUC.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
