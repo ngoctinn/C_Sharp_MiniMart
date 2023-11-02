@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Models;
 
 namespace C_Sharp_MiniMart
 {
@@ -24,20 +25,18 @@ namespace C_Sharp_MiniMart
             HomeFrm f = new HomeFrm();
             this.Hide();
             f.ShowDialog();
-
         }
 
         private void guna2ImageCheckBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if(guna2ImageCheckBox1.Checked)
+            if (guna2ImageCheckBox1.Checked)
             {
                 txtPassword.PasswordChar = '\0';
             }
             else
             {
                 txtPassword.PasswordChar = '●';
-            } 
-
+            }
         }
     }
 }

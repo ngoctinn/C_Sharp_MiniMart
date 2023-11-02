@@ -52,11 +52,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddEditCustomerFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEditCustomerFrm.Designer.cs">
+      <DependentUpon>AddEditCustomerFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddEditItemFrm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AddEditItemFrm.Designer.cs">
       <DependentUpon>AddEditItemFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEditSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEditSupplier.Designer.cs">
+      <DependentUpon>AddEditSupplier.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomerFrm.cs">
       <SubType>Form</SubType>
@@ -96,8 +108,14 @@
     <Compile Include="Use Control\ProductUC.Designer.cs">
       <DependentUpon>ProductUC.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddEditCustomerFrm.resx">
+      <DependentUpon>AddEditCustomerFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddEditItemFrm.resx">
       <DependentUpon>AddEditItemFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEditSupplier.resx">
+      <DependentUpon>AddEditSupplier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerFrm.resx">
       <DependentUpon>CustomerFrm.cs</DependentUpon>
@@ -139,6 +157,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{942a07f1-479e-43ec-a456-b73767932953}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guna2CirclePictureBox1.Image.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

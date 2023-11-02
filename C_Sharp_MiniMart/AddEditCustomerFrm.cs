@@ -10,14 +10,11 @@ using System.Windows.Forms;
 
 namespace C_Sharp_MiniMart
 {
-    public partial class AddEditItemFrm : Form
+    public partial class AddEditCustomerFrm : Form
     {
-        public AddEditItemFrm()
+        public AddEditCustomerFrm()
         {
             InitializeComponent();
-            CenterToParent();
-        }
-        
-
         }
     }
+}

@@ -8,16 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace C_Sharp_MiniMart
+namespace C_Sharp_MiniMart.Use_Control
 {
-    public partial class AddEditItemFrm : Form
+    public partial class SelectProductsUC : UserControl
     {
-        public AddEditItemFrm()
+        public SelectProductsUC()
         {
             InitializeComponent();
-            CenterToParent();
-        }
-        
-
         }
     }
+}

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,6 +25,7 @@ namespace C_Sharp_MiniMart
             var childView = new AddEditItemFrm();
             childView.Show();
         }
+       
 
     }
 }

@@ -18,5 +18,19 @@ namespace C_Sharp_MiniMart
             InitializeComponent();
         }
 
+        private void guna2VScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+            fllProduct.VerticalScroll.Value = e.NewValue;
+        }
+
+        private void btnKhachHang_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
